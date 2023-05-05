@@ -36,3 +36,10 @@ p, .link{
 li.link {
     list-style-type: none;
 }
+div#text, #image-header {
+    margin-bottom: 40px;
+}
+/* Content2 container */
+#content2-container p {
+    color: #000;
+}
