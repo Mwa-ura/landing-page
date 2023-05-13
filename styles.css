@@ -22,7 +22,7 @@ div#header-content {
     font-weight: extra-bold;
     text-decoration: none;
 }
-p, .link{
+#text p, .link{
     color:#EFE7EB;
     font-size: 18px;
 }
@@ -39,7 +39,21 @@ li.link {
 div#text, #image-header {
     margin-bottom: 40px;
 }
+/* Button call to action */
+button#button1 {
+    background-color: #3882F6;
+    padding: 5px 12px 5px 12px;
+    border-radius: 5px;
+}
 /* Content2 container */
-#content2-container p {
+#content2-container {
+    text-align: center;
+    background-color: white;
+}
+.items p{
     color: #000;
+    font-size: normal;
+}
+#content2-items {
+    display: flex;
 }
