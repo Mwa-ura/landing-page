@@ -76,3 +76,30 @@ li#author {
     font-style: normal;
     font-size: large;
 }
+/* Footer section */
+#footer-container {
+    background-color: white;
+    padding: 38px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    padding: 28px;
+    gap: 40px;
+    border-radius: 7px;
+}
+#button2 {
+    padding: 2px 12px 2px 12px;
+    color: white;
+    background-color: #3882F6;
+    border: solid white 1px;
+    border-radius: 4px;
+}
+footer div h2 {
+    margin: 0px;
+}
+footer div p {
+    margin: 0px;
+}
