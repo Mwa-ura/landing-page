@@ -76,7 +76,7 @@ li#author {
     font-style: normal;
     font-size: large;
 }
-/* Footer section */
+/* call to action section */
 #section-container {
     background-color: white;
     padding: 38px;
@@ -102,4 +102,12 @@ section div h2 {
 }
 section div p {
     margin: 0px;
+}
+/* Footer section */
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 38px;
+    color: #F9FAF8;
+    font-size: small;
 }
