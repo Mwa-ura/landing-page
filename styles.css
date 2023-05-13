@@ -1,9 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 15px;
+    margin: auto;
 }
 div#header-container {
     background-color: #1F2937;
+    padding: 38px;
 }
 nav#nav-links {
     display: flex;
@@ -17,12 +18,12 @@ div#header-content {
 
 }
 #text, a:link{
-    color: #F9FAF8;
+    color: #E5E7EB;
     font-size: 24px;
     font-weight: extra-bold;
     text-decoration: none;
 }
-#text p, .link{
+#text p, a {
     color:#EFE7EB;
     font-size: 18px;
 }
@@ -33,7 +34,7 @@ div#header-content {
     list-style-type: none;
     font-weight: bolder;
 }
-li.link {
+li#author, li.link {
     list-style-type: none;
 }
 div#text, #image-header {
@@ -49,6 +50,7 @@ button#button1 {
 #content2-container {
     text-align: center;
     background-color: white;
+    padding: 38px;
 }
 .items p{
     color: #000;
@@ -56,4 +58,21 @@ button#button1 {
 }
 #content2-items {
     display: flex;
+}
+/* Quote section */
+div#quote {
+    background-color: #E5E7EB;
+    padding: 38px;
+}
+blockquote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+li#author {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+    font-size: large;
 }
