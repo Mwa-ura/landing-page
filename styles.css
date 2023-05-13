@@ -77,11 +77,11 @@ li#author {
     font-size: large;
 }
 /* Footer section */
-#footer-container {
+#section-container {
     background-color: white;
     padding: 38px;
 }
-footer {
+section {
     display: flex;
     align-items: center;
     background-color: #3882F6;
@@ -97,9 +97,9 @@ footer {
     border: solid white 1px;
     border-radius: 4px;
 }
-footer div h2 {
+section div h2 {
     margin: 0px;
 }
-footer div p {
+section div p {
     margin: 0px;
 }
