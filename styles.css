@@ -4,12 +4,12 @@ body {
 }
 div#header-container {
     background-color: #1F2937;
-    padding: 38px;
+    padding: 7px 38px 38px 38px;
 }
 nav#nav-links {
     display: flex;
     gap: 10px;
-    margin: 20px; 
+    margin-bottom: 40px; 
 }
 div#header-content {
     display: flex;
